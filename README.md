@@ -21,7 +21,7 @@ And here is having full access to the Linux terminal remotely through putty via 
 ![login through putty](https://github.com/Anthonymiranda/AWS-Homelab/blob/main/Ec2%20connected%20via%20putty.png)
 
 For the Microsoft Server 2022, I set up the VPC with a subnet that only allows inbound traffic through SSH through my own IP address
-(image)
+
 
 I had to download the RPD client for Macs and test the keys since my server instance was not allocating public ip addresses. After some throubleshooting, found out that the dsn was not set up to automatically assing public IP addresses which was a quick and easy fix
 ![rdp with key with mac](https://github.com/Anthonymiranda/AWS-Homelab/blob/main/connecting%20to%20Microsoft%20server%20with%20RDP.png)
