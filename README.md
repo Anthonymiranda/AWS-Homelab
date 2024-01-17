@@ -6,7 +6,7 @@ The Homelab uses IAM for authentication & authorization through an AWS Organizat
 I used MFA for the root user and created admin accounts with admin rights to use for the daily use.
 
 For the Linux instance, I also set up a VPC with a subnet that only allows inbound traffic through SSH through my own IP address.
-![VPC, Subnet, Route Tables]((https://github.com/Anthonymiranda/AWS-Homelab/raw/main/VPC%20w%20Subnet%20%26%20route%20tables.png)
+![VPC, Subnet, Route Tables](https://github.com/Anthonymiranda/AWS-Homelab/raw/main/VPC%20w%20Subnet%20%26%20route%20tables.png)
 
 The VPC has an internet gateway which allows the assets inside the subnet to communicate out to the internet through it.
 ![Internet facing gateway](https://github.com/Anthonymiranda/AWS-Homelab/blob/main/IG_homelab_vpc.png)
