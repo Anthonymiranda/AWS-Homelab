@@ -1,7 +1,7 @@
 This is a cloud based cybersecurity homelab run on a linux EC2 instance and another Microsoft server 2022 EC2 instance.
 
 The Homelab uses IAM for authentication & authorization through an AWS Organization setup where an umbrella account handles all other accounts under it for consolidated billing.
-!([User created in Organizations via Identity center](https://github.com/Anthonymiranda/AWS-Homelab/blob/main/User%20created%20in%20Organizations.png))
+![User created in Organizations via Identity center](User created in Organizations.png)
 I used MFA for the root user and created admin accounts with admin rights to use for the daily use.
 
 For the Linux instance, I also set up a VPC with a subnet that only allows inbound traffic through SSH through my own IP address.
